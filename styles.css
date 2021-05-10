@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;     
+}
+
+body{font-family:Georgia, 'Times New Roman', Times, serif;
+color: white;
+background-color: black;}
+
+.container{justify-content: center;
+}
+
+.title{text-align: center;
+        margin-top: 50px;
+        color:white;
+        text-shadow: 2px 2px grey;
+       }
+
+
+
+.card{
+    display: inline-block;
+    width: 20%;
+    background-color:rgb(44, 42, 42);
+    margin: 60px;
+    border-radius: 12px;
+    }
+.card:hover{
+    box-shadow: 4px 4px 10px rgb(252, 255, 87);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.poster img{
+    width: 100%;
+    border-top-left-radius: 12px ;
+    border-top-right-radius: 12px;
+    
+}
+
+.name{
+        text-align: center;
+}
+
+.desc{
+        text-align: center;
+        margin-top: 15px;
+}
+
+button{
+    color: rgb(40, 149, 221);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(252, 252, 252);
+    padding: 5px;
+    border-radius: 10px;
+    border-style: outset;
+    
+}
+
+button:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(44, 42, 42) ;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(252, 255, 87);
+    transition:.2s;
+}
